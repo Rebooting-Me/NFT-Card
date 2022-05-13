@@ -2,6 +2,53 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
+.container {
+    width: 340px;
+    height: 565px;
+    background-color:hsl(216, 50%, 16%);
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+img {
+    width: 90%;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.image-overlay {
+    width: 306px;
+    height: 308px;
+    background-color:hsl(178, 100%, 50%);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: none;
+    opacity: 50%;
+}
+
+img:hover + .image-overlay {
+    display: block;
+}
+
+.eye {
+    width:15%;
+    top: 26%;
+    left: 42%;
+    display: none;
+}
+
+img:hover + .eye {
+    display: block;
+}
+
 .attribution { 
     font-size: 11px;
     text-align: center;
