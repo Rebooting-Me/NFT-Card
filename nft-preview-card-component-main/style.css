@@ -6,10 +6,19 @@ body {
     font-size: 11px;
     text-align: center;
     color: rgb(139, 174, 209);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .attribution a { 
     color: hsl(228, 6%, 83%);
-    text-decoration:none
+    text-decoration:none;
+}
+
+.attribution a:hover {
+    color: rgb(105, 235, 205);
+    text-decoration: underline;
 }
 
