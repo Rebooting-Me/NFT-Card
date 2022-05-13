@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Outfit">
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | NFT preview card component</title>
@@ -13,15 +15,27 @@
 </head>
 <body>
   <div class="container">
-    <img src="images/image-equilibrium.jpg" alt="NFT crystal image">
-    <div class="image-overlay"></div>
-    <img class ="eye" src="design/Vector.svg">
+    <img id ="image" src="images/image-equilibrium.jpg" alt="NFT crystal image">
+    <div class="image-overlay"><img id ="eye" src="design/Vector.svg"></div>
+    
+    
+    <a class="name" href="#">Equilibrium #3429</a>
+    <p class="desc">Our Equilibrium collection promotes balance and calm.</p>
+    <img id="nft" src="images/icon-ethereum.svg">
+    <div class="price">0.041 ETH</div>
+    <img id="clock" src="images/icon-clock.svg" alt="clock">
+    <div class="timer">3 days left</div>
+    <div class="line"></div>
+    <img id="pfp" src="images/image-avatar.png" alt="pfp" style="border-style: solid">
+    <p>Creation of<a href="#">Jules Wyvern</a></p>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by <a href="https://github.com/Rebooting-Me" target="_blank">Aditya Raj Sharma</a>
+    </div>
   </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-    Coded by <a href="https://github.com/Rebooting-Me" target="_blank">Aditya Raj Sharma</a>
-  </div>
+  
 </body>
 </html>
 

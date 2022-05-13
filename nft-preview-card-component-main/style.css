@@ -5,9 +5,9 @@ body {
 .container {
     width: 340px;
     height: 565px;
-    background-color:hsl(216, 50%, 16%);
+    background-color:#14253e;
     position: absolute;
-    top: 48%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
@@ -19,6 +19,13 @@ img {
     top: 3%;
     left: 5%;
     border-radius: 20px;
+}
+
+#eye {
+    width:15%;
+    top: 45%;
+    left: 42%;
+    opacity: 100%;
 }
 
 .image-overlay {
@@ -38,23 +45,107 @@ img:hover + .image-overlay {
     display: block;
 }
 
-.eye {
-    width:15%;
-    top: 26%;
-    left: 42%;
-    display: none;
+.name {
+    position: absolute;
+    top: 59%;
+    left: 12%;
+    font-size: 21px;
+    font-family: "Outfit";
+    font-weight: 600px;
+    color: white;
 }
 
-img:hover + .eye {
-    display: block;
+.desc{
+    position: absolute;
+    top: 64%;
+    left: 12%;
+    right: 12%;
+    font-size: 17px;
+    font-family: "Outfit";
+    font-weight: 100px;
+    line-height: 150%;
+    color: #7e8ea9;
+
+}
+
+#nft{
+    width: 3.5%;
+    position: absolute;
+    top: 81%;
+    left: 12%;
+}
+
+.price{
+    position: absolute;
+    top: 81%;
+    left: 17%;
+    font-size: 17px;
+    font-family: "Outfit";
+    font-weight: 100px;
+    color: hsl(178, 100%, 50%);
+}
+
+#clock{
+    width: 6%;
+    position: absolute;
+    top: 81%;
+    left: 60%;
+}
+
+.timer{
+    position: absolute;
+    top: 81%;
+    left: 68%;
+    font-size: 17px;
+    font-family: "Outfit";
+    font-weight: 300px;
+    color: #7e8ea9;
+}
+
+.line {
+    width: 80%;
+    height: 0.1%;
+    position: absolute;
+    top: 87%;
+    left: 11%;
+    background-color:#3e608f;
+}
+
+#pfp{
+    position: absolute;
+    top: 88.5%;
+    left: 12%;
+    width: 12%;
+    border-color: #a5b8da;
+    border-radius: 50%;
+} 
+
+p{
+    position: absolute;
+    top: 88%;
+    left: 30%;
+    font-size: 17px;
+    font-family: "Outfit";
+    font-weight: 300px;
+    color: #7e8ea9;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color:hsl(178, 100%, 50%);
 }
 
 .attribution { 
+    width: 100%;
     font-size: 11px;
     text-align: center;
     color: rgb(139, 174, 209);
     position: absolute;
-    top: 95%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -68,4 +159,5 @@ img:hover + .eye {
     color: rgb(105, 235, 205);
     text-decoration: underline;
 }
+
 
